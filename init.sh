@@ -1,7 +1,7 @@
-sudo su
-sudo add-apt-repository ppa:oibaf/graphics-drivers
-sudo apt-get update -y
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt-get install vim tmux lshw -y
-vim start_miner.sh
+#!/bin/bash
+add-apt-repository ppa:oibaf/graphics-drivers
+apt-get update -y
+apt update -y
+apt upgrade -y
+apt-get install vim tmux lshw -y
+vim ./start.sh
